@@ -1,4 +1,5 @@
 import 'src/styles/globals.css'
+import 'src/styles/styles.scss'
 import {ApolloClient, ApolloProvider, HttpLink, InMemoryCache} from "@apollo/client"
 
 function MyApp({Component, pageProps}) {

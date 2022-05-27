@@ -11,6 +11,7 @@
   "dependencies": {
     "@apollo/client": "^3.6.2",
     "@shopify/polaris": "^9.9.0",
+    "@shopify/polaris-icons": "^4.22.0",
     "@shopify/shopify-api": "^3.0.1",
     "chalk": "^4.1.2",
     "envfile": "^6.17.0",
@@ -19,7 +20,8 @@
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-live-chat-loader": "^2.7.3"
+    "react-live-chat-loader": "^2.7.3",
+    "sass": "^1.52.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.32",

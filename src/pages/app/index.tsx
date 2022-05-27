@@ -3,8 +3,6 @@ import Image from 'next/image'
 import { AppProvider, Layout, Frame } from '@shopify/polaris'
 import { LiveChatLoaderProvider } from "react-live-chat-loader";
 import translations from "@shopify/polaris/locales/en.json";
-import "@shopify/polaris/dist/styles.css";
-import "src/styles/Home.module.scss";
 
 import Header from 'src/components/header'
 import Menu from 'src/components/Menu'
