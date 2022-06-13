@@ -14,7 +14,7 @@ export default function AppHome() {
       <Provider
         config={{
           apiKey: 'e3285cde84517cb09df14b9736ec09bc',
-          host: 'shopHost',
+          host: 'aG90Ym90c3RvcmUubXlzaG9waWZ5LmNvbS9hZG1pbg',
           forceRedirect: true,
         }}
       >

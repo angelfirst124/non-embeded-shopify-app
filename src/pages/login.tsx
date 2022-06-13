@@ -11,7 +11,7 @@ export default function Login() {
                     <input className={styles.input} value={shop} onChange={e => setShop(e.target.value)}/>
                     <div className={styles.myShopify}>.myshopify.com</div>
                 </div>
-                <a href={`/api/auth/offline?shop=${shop}.myshopify.com`}>
+                <a href={`/api/auth?shop=${shop}.myshopify.com`}>
                     <button disabled={shop === ""} className={styles.button}>Login</button>
                 </a>
             </div>
