@@ -4,10 +4,10 @@ import webhooks from "../webhooks";
 
 Shopify.Context.initialize({
     API_KEY: process.env.SHOPIFY_API_KEY,
-    API_SECRET_KEY: process.env.SHOPIFY_API_SECRET_KEY,
+    API_SECRET_KEY: process.env.SHOPIFY_API_SECRET,
     SCOPES: process.env.SCOPES.split(','),
     HOST_NAME: process.env.HOST.replace(/https:\/\//, ""),
-    IS_EMBEDDED_APP: false,
+    IS_EMBEDDED_APP: true,
     API_VERSION: ApiVersion.April22,
     SESSION_STORAGE: SessionStorage
 })
